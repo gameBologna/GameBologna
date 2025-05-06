@@ -100,6 +100,8 @@
   gap: 30px;
   padding: 0px 20px;
   position: relative;
+ justify-content: center; 
+  height: 100%;
 }
 
 .homepage .div-wrapper {
@@ -132,20 +134,26 @@
   position: relative;
   flex: 0 0 auto;
   margin-right: -20.00px;
+ margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .homepage .text-wrapper-2 {
-  position: relative;
   width: 404px;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 30px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 1.3; /* Aumenta l'interlinea */
+  text-align: justify; /* Allineamento giustificato */
 }
-
+.homepage .text-wrapper-2 br {
+  display: block;
+  content: "";
+  margin-bottom: 12px;
+}
 .homepage .work-arte {
   height: 841.89px;
   object-fit: cover;
