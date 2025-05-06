@@ -68,7 +68,7 @@
 }
 
 .homepage .frame-4 {
-  display: flex;
+ display: flex;
   width: 1728px;
   height: 841.89px;
   align-items: flex-start;
@@ -164,8 +164,9 @@
 
 .homepage .frame-9 {
   display: flex;
+  display: flex;
   width: 1728px;
-  height: 841.89px; /* Allineato a frame-4 */
+  height: 841.89px;
   align-items: flex-start;
   gap: 10px;
   padding: 0px 20px;
