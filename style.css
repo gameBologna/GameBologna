@@ -155,6 +155,14 @@
 }
 
 .homepage .frame-9 {
+  height: 841.89px; /* Allineato con frame-4 */
+}
+
+.homepage .frame-9 .work-arte {
+  flex: 1;
+  height: 100%;
+  object-fit: cover;
+}
   display: flex;
   width: 1728px;
   height: 844px;
@@ -184,11 +192,7 @@
 }
 
 .homepage .work-grafica {
-  height: 844px;
-  background-color: #000000;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
+  display: none;
 }
 
 .homepage .frame-11 {
