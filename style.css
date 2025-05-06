@@ -155,17 +155,9 @@
 }
 
 .homepage .frame-9 {
-  height: 841.89px; /* Allineato con frame-4 */
-}
-
-.homepage .frame-9 .work-arte {
-  flex: 1;
-  height: 100%;
-  object-fit: cover;
-}
   display: flex;
   width: 1728px;
-  height: 844px;
+  height: 841.89px; /* Allineato a frame-4 */
   align-items: flex-start;
   gap: 10px;
   padding: 0px 20px;
